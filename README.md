@@ -33,13 +33,13 @@ A single backend API as firsts steps with Prisma ORM
 - Check Server is using url param: `/api/healthcheck`
 - In REST API client should show through get request: `"Server is running - Status OK"`
 - For User Entity is using url param: `/api/users` and the following params and http requests for CRUD:
-  | Route | HTTP Verb | Description | Request Body | Success Status | Error Status |
+  | Route | HTTP Verb | Description | Request Body |
   | --- | --- | --- | --- | --- | --- |
-  | / | POST | Creates a new user | User data | 201 Created | 400 Bad Request <br> 409 Conflict |
-  | /:id | PUT | Updates an existing user | User data and ID parameter | 200 OK | 400 Bad Request <br> 404 Not Found |
-  | / | GET | Retrieves all users | N/A | 200 OK | N/A |
-  | /:id | GET | Retrieves a single user by ID | ID parameter | 200 OK | 404 Not Found |
-  | /:id | DELETE | Deletes a user by ID | ID parameter | 204 No Content | 404 Not Found |
+  | / | POST | Creates a new user | User data |
+  | /:id | PUT | Updates an existing user | User data and ID parameter |
+  | / | GET | Retrieves all users | N/A |
+  | /:id | GET | Retrieves a single user by ID | ID parameter |
+  | /:id | DELETE | Deletes a user by ID | ID parameter |
 
 - Play with data and custom this project as you wish.
 
