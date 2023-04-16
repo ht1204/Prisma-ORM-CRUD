@@ -33,6 +33,7 @@ A single backend API as firsts steps with Prisma ORM
 - Check Server is using url param: `/api/healthcheck`
 - In REST API client should show through get request: `"Server is running - Status OK"`
 - For User Entity is using url param: `/api/users` and the following params and http requests for CRUD:
+
   | Route | HTTP Verb | Description | Request Body |
   | --- | --- | --- | --- | --- | --- |
   | / | POST | Creates a new user | User data |
